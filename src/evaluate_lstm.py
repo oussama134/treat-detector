@@ -46,4 +46,4 @@ with torch.no_grad():
 
 df['Predicted'] = le.inverse_transform(preds)
 df[['Predicted']].to_csv("predictions-friday-web.csv", index=False)
-print("✅ Predictions saved to predictions.csv")
+print("✅ Predictions saved to rofff.csv")
